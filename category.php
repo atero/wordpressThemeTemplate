@@ -7,8 +7,16 @@
 		?>
 		<div id="content">
 			<?php if(have_post()) : while(have_post()) : the_post();?>
-				<div class="cat">
+				<div class="cat-post">
 					<h2 class="cat-post-title">	<?php the_title(); ?> </h2>
+					<?php
+                if(has_post_thumbnail()) {
+                	the_post_thumbnail();
+                }                  
+           		else { ?>
+              <img src="<?php bloginfo('template_url'); ?>/images/no-img.jpg" alt="" />
+            <?php } 
+            the_excerpt();?> 
 				</div>
 				
 			<?php endwhile; endif; ?>
