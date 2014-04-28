@@ -8,6 +8,5 @@
 	<script type="text/javascript" src="<?php echo bloginfo('template_url'); ?>/js/script.js"></script>
 </head>
 <body>
-
-</body>
-</html>
+<div class="container">
+	
