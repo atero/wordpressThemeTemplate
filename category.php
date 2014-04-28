@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<div class="continer">
 	<div class="row">
 		<?php 
 		//uncomment next line to enable sidebar for category pages
@@ -21,5 +20,4 @@
 			<?php endwhile; endif; ?>
 		</div>
 	</div>
-</div>
 <?php get_footer(); ?>

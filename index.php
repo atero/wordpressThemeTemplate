@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<div class="continer">
 	<div class="row">
 		<?php get_sidebar(); ?>
 		<div id="content">
@@ -10,5 +9,4 @@
 			<?php endwhile; endif; ?>
 		</div>
 	</div>
-</div>
 <?php get_footer(); ?>
